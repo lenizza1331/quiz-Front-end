@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript тест</title>
+    <link rel="stylesheet" href="styleanswer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="java">
+    <form>
+        <h1>Тест для начинающих по JavaScript</h1>
+        <div class="question">
+            <label>1) Какой используется оператор для присвоения значения переменной?</label>
+            <span><input type="radio" name="question1"> x</span>
+            <span><input type="radio" name="question1"> *</span>
+            <span><input type="radio" name="question1"> -</span>
+            <span><input type="radio" name="question1" id="answer1"> = </span>
+        </div>
+
+        <div class="question">
+            <label>2)Как создать новый массив в JavaScript?</label>
+            <span><input type="radio" name="question2"> let colors = 1 = ('yellow'), 2 = ('purple'), 3 = ('blue')</span>
+            <span><input type="radio" name="question2" id="answer2"> let colors = ['yellow', 'purple', 'blue']</span>
+            <span><input type="radio" name="question2"> let colors = (1:'yellow', 2:'purple', 3:'blue')</span>
+            <span><input type="radio" name="question2"> let colors = 'yellow', 'purple', 'blue'</span>
+        </div>
+
+        <div class="question">
+            <label>3)Как округляется число 3.14 до ближайшего целого числа?</label>
+            <span><input type="radio" name="question3" id="answer3"> Math.round(3.14)</span>
+            <span><input type="radio" name="question3"> round(3.14)</span>
+            <span><input type="radio" name="question3"> Math.rnd(3.14)</span>
+            <span><input type="radio" name="question3"> rnd(3.14)</span>
+        </div>
+
+        <div class="question">
+            <label>4) Как начать FOR цикл?</label>
+            <span><input type="radio" name="question4"> for (i <= 10; i++)</span>
+            <span><input type="radio" name="question4"> for (i = 0; i <= 10)</span>
+            <span><input type="radio" name="question4"> for i = 1 to 10</span>
+            <span><input type="radio" name="question4" id="answer4"> for (i = 0; i <= 10; i++)</span>
+        </div>
+
+        <div class="question">
+            <label>5) Какое происходит событие, когда пользователь нажимает на элемент HTML?</label>
+            <span><input type="radio" name="question5"> mouseclick</span>
+            <span><input type="radio" name="question5" id="answer5"> click</span>
+            <span><input type="radio" name="question5"> mouseover</span>
+            <span><input type="radio" name="question5"> keypress</span>
+        </div>
+
+        <button type="submit" class="btn">Подсчитать результат</button>
+
+        <button class="goback"><a href="index.html">На главную</a></button>
+    </form>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

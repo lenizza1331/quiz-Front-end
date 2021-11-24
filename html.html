@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-test</title>
+    <link rel="stylesheet" href="styleanswer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="html">
+    <form>
+        <h1>Тест для начинающих по HTML</h1>
+        <div class="question">
+            <label>1) Какой раздел содержит техническую информацию о странице: заголовок, описание, ключевые слова для поисковых машин, кодировку и т.д.? </label>
+            <span><input required="" type="radio" name="question1"> Body</span>
+            <span><input required="" type="radio" name="question1"> Title</span>
+            <span><input required="" type="radio" name="question1" id="answer1"> Head</span>
+            <span><input required="" type="radio" name="question1"> Meta</span>
+        </div>
+
+        <div class="question">
+            <label>2)  Как сделать текст жирным?</label>
+           <span> <input type="radio" name="question2">   &lt;a&gt;</span>
+            <span><input type="radio" name="question2" id="answer2">   &lt;strong&gt;</span>
+            <span><input type="radio" name="question2">   &lt;p&gt;</span>
+            <span><input type="radio" name="question2">   &lt;br&gt;</span>
+        </div>
+
+        <div class="question">
+            <label>3)  С помощью какого атрибута можно задать текст для картинки, который будет отображен, если её не удастся загрузить?</label> 
+            <span><input type="radio" name="question3"> title</span>
+            <span><input type="radio" name="question3" id="answer3"> alt</span>
+            <span><input type="radio" name="question3"> class</span>
+            <span><input type="radio" name="question3"> caption</span>
+        </div>
+
+        <div class="question">
+            <label>4) Какое значение атрибута type указывается для поля-галочки в форме?</label>
+           <span> <input type="radio" name="question4" id="answer4"> checkbox</span>
+            <span><input type="radio" name="question4"> id</span>
+           <span> <input type="radio" name="question4"> radio</span>
+           <span> <input type="radio" name="question4"> name</span>
+        </div>
+
+        <div class="question">
+            <label>5) Какое число заголовков первого уровня считается допустимым?</label>
+            <span><input type="radio" name="question5" > 4</span>
+            <span><input type="radio" name="question5"> 2</span>
+            <span><input type="radio" name="question5"> 3</span>
+            <span><input type="radio" name="question5" id="answer5"> 1</span>
+        </div>
+
+        <button type="submit" class="btn">Подсчитать результат</button>
+
+
+        <a href="index.html" ><button type="button" class="goback" >На главную</button></a>
+    
+
+    </form>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>

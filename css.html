@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-тест</title>
+    <link rel="stylesheet" href="styleanswer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="css">
+    <form>
+        <h1>Тест для начинающих по CSS</h1>
+        <div class="question">
+            <label>1) Какое свойство используется для изменения шрифта элемента?</label>
+            <span><input type="radio" name="question1"> font-style</span>
+            <span><input type="radio" name="question1"> font-size</span>
+            <span><input type="radio" name="question1"> font-weight</span>
+            <span><input type="radio" name="question1" id="answer1"> font-family</span>
+        </div>
+
+        <div class="question">
+            <label>2) Как сделать так, чтобы каждое слово в тексте начиналось с заглавной буквы?</label>
+            <span><input type="radio" name="question2"> text-style:capitalize</span>
+            <span><input type="radio" name="question2"> transform:capitalize</span>
+            <span><input type="radio" name="question2"> Это нельзя сделать через CSS</span>
+            <span><input type="radio" name="question2" id="answer2"> text-transform:capitalize</span>
+        </div>
+
+        <div class="question">
+            <label>3) Как вставить комментарий в файл CSS?</label>
+            <span><input type="radio" name="question3">  // это комментарий</span>
+            <span><input type="radio" name="question3" id="answer3"> /* это комментарий */</span>
+            <span><input type="radio" name="question3"> &lt;!-- это комментарий --&gt;</span>
+            <span><input type="radio" name="question3"> ' это комментарий</span>
+        </div>
+
+        <div class="question">
+            <label>4) Укажите правильный синтаксис CSS для выделения всех элементов жирным шрифтом?</label>
+            <span><input type="radio" name="question4"> p {text-size:bold;}</span>
+            <span><input type="radio" name="question4"> &lt;p style="font-size:bold;"&gt;</span>
+            <span><input type="radio" name="question4"> &lt;p style="text-size:bold;"&gt;</span>
+            <span><input type="radio" name="question4" id="answer4"> p {font-weight:bold;}</span>
+        </div>
+
+        <div class="question">
+            <label>5) Как выбрать элемент с id = "block"?</label>
+            <span><input type="radio" name="question5"> *block</span>
+            <span><input type="radio" name="question5" id="answer5"> #block</span>
+            <span><input type="radio" name="question5"> .block</span>
+            <span><input type="radio" name="question5"> block</span>
+        </div>
+
+        <button type="submit" class="btn">Подсчитать результат</button>
+
+        <button class="goback"><a href="index.html">На главную</a></button>
+    </form>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
